@@ -1,0 +1,418 @@
+{
+  "opengym_plan": 1,
+  "exported": "2026-10-29",
+  "name": "Recomp: 35% → 20%",
+  "unit": "kg",
+  "week": {
+    "1": [
+      "legs"
+    ],
+    "2": [
+      "chest"
+    ],
+    "3": [
+      "cardio"
+    ],
+    "4": [
+      "back"
+    ],
+    "5": [
+      "shoulders"
+    ],
+    "6": [
+      "cardio"
+    ]
+  },
+  "routines": [
+    {
+      "id": "legs",
+      "name": "Legs",
+      "emoji": "🦵",
+      "ex": [
+        {
+          "id": "3593",
+          "sets": 4,
+          "repsMin": 6,
+          "reps": 10,
+          "weight": 40,
+          "prog": "double",
+          "inc": 2.5,
+          "restSec": 150,
+          "note": "Main lift. Weeks 1–3: keep 2–3 reps in the tank."
+        },
+        {
+          "id": "0739",
+          "sets": 3,
+          "repsMin": 10,
+          "reps": 15,
+          "weight": 60,
+          "prog": "double",
+          "inc": 5,
+          "restSec": 120,
+          "note": "Start weight is a guess: pick one you can do 15 with 2–3 left."
+        },
+        {
+          "id": "4295",
+          "sets": 2,
+          "reps": 10,
+          "side": true,
+          "restSec": 90,
+          "note": "Bodyweight first; hold light dumbbells once 10/leg feels easy."
+        },
+        {
+          "id": "0586",
+          "sets": 4,
+          "repsMin": 10,
+          "reps": 15,
+          "weight": 25,
+          "prog": "double",
+          "inc": 2.5,
+          "restSec": 90
+        },
+        {
+          "id": "0605",
+          "sets": 3,
+          "repsMin": 12,
+          "reps": 15,
+          "weight": 40,
+          "prog": "double",
+          "inc": 5,
+          "restSec": 60
+        },
+        {
+          "id": "0463",
+          "sets": 3,
+          "mode": "time",
+          "sec": 40,
+          "prog": "time",
+          "restSec": 60
+        }
+      ]
+    },
+    {
+      "id": "chest",
+      "name": "Chest + Triceps",
+      "emoji": "💪",
+      "ex": [
+        {
+          "id": "0289",
+          "sets": 4,
+          "repsMin": 8,
+          "reps": 12,
+          "weight": 15,
+          "prog": "double",
+          "inc": 2.5,
+          "dbLoad": "each",
+          "restSec": 150,
+          "note": "Old working weight 25 kg each; ramp back over weeks 1–3."
+        },
+        {
+          "id": "0314",
+          "sets": 3,
+          "repsMin": 8,
+          "reps": 12,
+          "weight": 12.5,
+          "prog": "double",
+          "inc": 2.5,
+          "dbLoad": "each",
+          "restSec": 120
+        },
+        {
+          "id": "1030",
+          "sets": 3,
+          "repsMin": 12,
+          "reps": 15,
+          "weight": 30,
+          "prog": "double",
+          "inc": 5,
+          "restSec": 90
+        },
+        {
+          "id": "0009",
+          "sets": 3,
+          "reps": 10,
+          "repsMin": 6,
+          "restSec": 120,
+          "note": "Set the assistance so the last rep is hard; lower it as you get stronger."
+        },
+        {
+          "id": "5873",
+          "sets": 3,
+          "repsMin": 8,
+          "reps": 12,
+          "weight": 10,
+          "prog": "double",
+          "inc": 2.5,
+          "restSec": 90,
+          "note": "Old working weight 15 kg incl. bar."
+        },
+        {
+          "id": "0200",
+          "sets": 3,
+          "repsMin": 12,
+          "reps": 15,
+          "weight": 15,
+          "prog": "double",
+          "inc": 2.5,
+          "restSec": 60
+        }
+      ]
+    },
+    {
+      "id": "cardio",
+      "name": "Cardio",
+      "emoji": "🚶",
+      "ex": [
+        {
+          "id": "3666",
+          "sets": 1,
+          "mode": "cardio",
+          "min": 30,
+          "speed": 5.5,
+          "incline": 11,
+          "subs": [
+            "0798"
+          ],
+          "note": "Easy pace: 115–135 bpm, you can talk in full sentences. Bike is the backup."
+        },
+        {
+          "id": "0463",
+          "sets": 3,
+          "mode": "time",
+          "sec": 40,
+          "prog": "time",
+          "restSec": 45,
+          "note": "Then 5–10 min of mobility."
+        }
+      ]
+    },
+    {
+      "id": "back",
+      "name": "Back + Biceps",
+      "emoji": "🏋️",
+      "ex": [
+        {
+          "id": "0032",
+          "sets": 3,
+          "repsMin": 5,
+          "reps": 8,
+          "weight": 50,
+          "prog": "double",
+          "inc": 5,
+          "restSec": 180,
+          "note": "Old working weight 70 kg. If your lower back is beaten up, swap to rack pulls."
+        },
+        {
+          "id": "0198",
+          "sets": 4,
+          "repsMin": 8,
+          "reps": 12,
+          "weight": 40,
+          "prog": "double",
+          "inc": 5,
+          "restSec": 120,
+          "subs": [
+            "0017"
+          ]
+        },
+        {
+          "id": "9698",
+          "sets": 3,
+          "repsMin": 8,
+          "reps": 12,
+          "weight": 12.5,
+          "prog": "double",
+          "inc": 2.5,
+          "dbLoad": "each",
+          "restSec": 90
+        },
+        {
+          "id": "0861",
+          "sets": 3,
+          "repsMin": 10,
+          "reps": 12,
+          "weight": 35,
+          "prog": "double",
+          "inc": 5,
+          "restSec": 90
+        },
+        {
+          "id": "5656",
+          "sets": 3,
+          "repsMin": 12,
+          "reps": 15,
+          "weight": 10,
+          "prog": "double",
+          "inc": 2.5,
+          "restSec": 60
+        },
+        {
+          "id": "0294",
+          "sets": 3,
+          "repsMin": 8,
+          "reps": 12,
+          "weight": 10,
+          "prog": "double",
+          "inc": 2.5,
+          "dbLoad": "each",
+          "restSec": 75,
+          "note": "Old working weight 15 kg each."
+        },
+        {
+          "id": "0313",
+          "sets": 3,
+          "repsMin": 10,
+          "reps": 12,
+          "weight": 10,
+          "prog": "double",
+          "inc": 2.5,
+          "dbLoad": "each",
+          "restSec": 75
+        }
+      ]
+    },
+    {
+      "id": "shoulders",
+      "name": "Shoulders + Arms",
+      "emoji": "🔥",
+      "ex": [
+        {
+          "id": "0405",
+          "sets": 4,
+          "repsMin": 8,
+          "reps": 12,
+          "weight": 12.5,
+          "prog": "double",
+          "inc": 2.5,
+          "dbLoad": "each",
+          "restSec": 150
+        },
+        {
+          "id": "0334",
+          "sets": 4,
+          "repsMin": 12,
+          "reps": 20,
+          "weight": 5,
+          "prog": "double",
+          "inc": 1,
+          "dbLoad": "each",
+          "restSec": 60
+        },
+        {
+          "id": "2487",
+          "sets": 3,
+          "repsMin": 12,
+          "reps": 15,
+          "weight": 5,
+          "prog": "double",
+          "inc": 1,
+          "dbLoad": "each",
+          "restSec": 60
+        },
+        {
+          "id": "0447",
+          "sets": 3,
+          "repsMin": 8,
+          "reps": 12,
+          "weight": 15,
+          "prog": "double",
+          "inc": 2.5,
+          "restSec": 90
+        },
+        {
+          "id": "0030",
+          "sets": 3,
+          "repsMin": 8,
+          "reps": 10,
+          "weight": 30,
+          "prog": "double",
+          "inc": 2.5,
+          "restSec": 120
+        },
+        {
+          "id": "0315",
+          "sets": 2,
+          "repsMin": 12,
+          "reps": 15,
+          "weight": 7.5,
+          "prog": "double",
+          "inc": 1,
+          "dbLoad": "each",
+          "sg": "arms",
+          "sgName": "Arms finisher",
+          "sgRest": 90
+        },
+        {
+          "id": "2188",
+          "sets": 2,
+          "repsMin": 12,
+          "reps": 15,
+          "weight": 12.5,
+          "prog": "double",
+          "inc": 2.5,
+          "dbLoad": "total",
+          "sg": "arms",
+          "sgName": "Arms finisher",
+          "sgRest": 90
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "name": "Home circuit (until the gym)",
+      "emoji": "🏠",
+      "ex": [
+        {
+          "id": "0662",
+          "sets": 3,
+          "reps": 12,
+          "restSec": 30,
+          "note": "Run as a circuit: one set of each, then repeat ×3. Stop 2 reps short of failure."
+        },
+        {
+          "id": "3948",
+          "sets": 3,
+          "reps": 20,
+          "repsMin": 15,
+          "restSec": 30
+        },
+        {
+          "id": "1581",
+          "sets": 3,
+          "reps": 10,
+          "side": true,
+          "restSec": 30
+        },
+        {
+          "id": "2471",
+          "sets": 3,
+          "reps": 15,
+          "restSec": 30
+        },
+        {
+          "id": "2921",
+          "sets": 3,
+          "reps": 10,
+          "repsMin": 8,
+          "restSec": 30
+        },
+        {
+          "id": "0499",
+          "sets": 3,
+          "reps": 12,
+          "restSec": 30,
+          "note": "Under a sturdy table, or bent-over rows with a loaded backpack."
+        },
+        {
+          "id": "0463",
+          "sets": 3,
+          "mode": "time",
+          "sec": 40,
+          "prog": "time",
+          "restSec": 30
+        }
+      ]
+    }
+  ],
+  "customEx": []
+}
